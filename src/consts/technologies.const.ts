@@ -1,0 +1,17 @@
+export const TECHNOLOGIES = {
+    ANGULAR: 'angular',
+    REACT: 'react',
+    VUE: 'vue',
+    REDUX: 'redux',
+    NEXTJS: 'nextjs',
+    REACTSTRAP: 'reactstrap',
+    TYPESCRIPT: 'typescript',
+    TAILWINDCSS: 'tailwindcss',
+    ANT_DESIGN: 'ant Design',
+    PRIMENG: 'primeNG',
+    NG_BOOTSTRAP: 'NG Bootstrap',
+    GOOGLE_ADS: 'Google Ads',
+    FACEBOOK_ADS: 'Facebook Ads',
+    WORDPRESS: 'Wordpress',
+    TWILIO_VIDEO: 'twilio Video',
+}

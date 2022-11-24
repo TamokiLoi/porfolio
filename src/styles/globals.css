@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green: #64ffda;
+}
+
+html,
+body {
+  @apply text-dark-gray;
+}
+
+body {
+  @apply bg-deep-blue;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  @apply mb-4;
+}
+
+.skill__item::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  color: var(--green);
+  font-size: 14px;
+  line-height: 12px;
+}
+
+.title__panel {
+  @apply text-light-gray mb-4 font-bold text-xl;
+}

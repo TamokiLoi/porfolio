@@ -1,0 +1,6 @@
+export { default as InfoTop } from "./InfoTop.scene"
+export { default as About } from "./About.scene"
+export { default as WorkExperience } from "./WorkExperience.scece"
+export { default as SideProject } from "./SideProject.scene"
+export { default as Skill } from "./Skill.scene"
+export { default as Contact } from "./Contact.scene"
