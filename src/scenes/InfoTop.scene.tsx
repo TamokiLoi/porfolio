@@ -10,10 +10,9 @@ export default function InfoTop() {
                 </h1>
                 <div>Frontend Developer</div>
                 <a
-                    href="http://example.com/files/myfile.pdf"
+                    href="/assets/files/Nguyen-Lam-Thanh-Loi-Resume.pdf"
                     className="hover:text-light-green"
-                    target="_blank"
-                    rel="noreferrer"
+                    download="Nguyen-Lam-Thanh-Loi-Resume.pdf"
                 >
                     Download Resume
                 </a>
