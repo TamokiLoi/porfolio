@@ -103,7 +103,7 @@ function WorkExperience() {
             position: "Frontend Developer",
             detail: {
                 project_name: "ARAP/FA",
-                project_description: "Fixed Asset System is the management of Fixed/Lease asset in company and is key system for family mart ERP system",
+                project_description: "Fixed Asset System is the management of Fixed/Lease asset in company and is key system for Family Mart Company ERP system",
                 responsibilities: [
                     "In charge of designing screen Internal Design files",
                     "Design layout from figma",
