@@ -66,7 +66,7 @@ function WorkExperience() {
                 project_description: "Manage condominium systems in Singapore",
             },
             time_in: "05/2020",
-            time_out: "NOW",
+            time_out: "05/2023",
             technologies: [
                 TECHNOLOGIES.TYPESCRIPT,
                 `${TECHNOLOGIES.ANGULAR} 2+`,
@@ -87,7 +87,7 @@ function WorkExperience() {
                 ],
             },
             time_in: "01/2022",
-            time_out: "NOW",
+            time_out: "05/2023",
             technologies: [
                 TECHNOLOGIES.TYPESCRIPT,
                 TECHNOLOGIES.REACT,
@@ -96,7 +96,28 @@ function WorkExperience() {
                 TECHNOLOGIES.TAILWINDCSS,
                 TECHNOLOGIES.TWILIO_VIDEO,
             ]
-        }
+        },
+        {
+            id: 5,
+            company_name: "FPT Software",
+            position: "Frontend Developer",
+            detail: {
+                project_name: "ARAP/FA",
+                project_description: "Fixed Asset System is the management of Fixed/Lease asset in company and is key system for family mart ERP system",
+                responsibilities: [
+                    "In charge of designing screen Internal Design files",
+                    "Design layout from figma",
+                    "Implement Frontend code for screens",
+                    "Manage and support the team as Lead Team Frontend",
+                ],
+            },
+            time_in: "06/2023",
+            time_out: "NOW",
+            technologies: [
+                TECHNOLOGIES.TYPESCRIPT,
+                TECHNOLOGIES.REACT,
+            ]
+        },
     ]
 
     return (
