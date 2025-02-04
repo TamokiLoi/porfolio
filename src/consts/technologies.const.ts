@@ -14,4 +14,5 @@ export const TECHNOLOGIES = {
     FACEBOOK_ADS: 'Facebook Ads',
     WORDPRESS: 'Wordpress',
     TWILIO_VIDEO: 'twilio Video',
+    PRIME_REACT: 'prime React',
 }

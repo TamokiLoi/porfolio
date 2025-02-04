@@ -1,21 +1,11 @@
-import React from 'react'
+import { SKILLS } from "data";
 
 function Skill() {
-    const SKILLS = [
-        "Javascript (ES6+)",
-        "Angular",
-        "Typescript",
-        "React",
-        "Nextjs",
-        "Vuejs",
-        "Nuxtjs",
-        "Nodejs",
-    ]
     return (
         <>
             <h2 className="title__panel">Skills</h2>
             <p>
-                Here are a few <strong className="text-light-green">technologies</strong> {"I've"} been working with recently:
+                Here are a few <strong className="text-light-green">technologies</strong> {"I've"} been working:
             </p>
             <div>
                 <ul className="grid gap-2 grid-cols-2 p-0 mt-5 list-none overflow-hidden">
